@@ -7,8 +7,22 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
   
   <title>Frontend Mentor | Skilled e-learning landing page</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+    tailwind.config = {
+      theme: {
+        fontFamily: {
+          Jakarta: ['Plus Jakarta Sans']
+        }
+      }
+    }
+  </script>
 </head>
 <body>
+  <nav class="navbar__container flex justify-between mx-[16px] mt-[16px]">
+    <h1 class="navbar__title text-[28px] font-extrabold font-Jakarta">skilled</h1>
+    <button class="navbar__botton--primpary bg-[#13183F] text-white px-[24px] py-[10px] rounded-full">Get Started</button>
+  </nav>
 
   Get Started
 
