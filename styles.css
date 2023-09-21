@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700;800&family=Poiret+One&family=Roboto+Slab&display=swap");
+
+/* Reset CSS */
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+  background: var(--Very-Light_blue);
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  font-family: Plus Jakarta Sans;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* mobile stage*/
+.container {
+  margin: 16px;
+  max-width: 375px;
+}
+.navbar__container {
+  display: flex;
+  justify-content: space-between;
+}
+.navbar__title {
+  font-size: 28px;
+  font-weight: 800;
+  color: #13183F;
+}
+.navbar__botton--primpary {
+  background: #13183F;
+  color: #FFF;
+  padding: 10px 24px;
+  border-radius: 28px;
+  font-size: 16px;
+  font-weight: 700;
+}
+.banner__title {
+  text-align: left;
+  margin-top: 38px;
+  font-size: 40px;
+  font-weight: 800;
+  color: #13183F
+}
+.banner__paragraph {
+  margin-top: 26px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #83869A;
+}
