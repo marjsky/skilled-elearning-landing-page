@@ -74,3 +74,11 @@ img {
   font-weight: 500;
   color: #83869A;
 }
+.btn__paragraph {
+  background: var(--Gradient-1, linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%));
+  color: #FFF;
+  padding: 15px 37px;
+  border-radius: 31.5px;
+  border: none;
+  margin-top: 24px;
+}
