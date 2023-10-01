@@ -60,6 +60,7 @@ img {
   border-radius: 28px;
   font-size: 16px;
   font-weight: 700;
+  border: none;
 }
 .banner__title {
   text-align: left;
@@ -84,4 +85,33 @@ img {
 }
 .image__mobile {
   margin-top: 46px;
+}
+.article__grid {
+  background: linear-gradient(180deg, #FFF 0%, #F0F1FF 100%);
+  
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 16px;
+}
+.article__primary--cell {
+  /* width: 343px; */
+  height: 120px;
+  color: #FFF;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 32px;
+  padding: 24px 29px;
+  border-radius: 10px;
+  background: var(--Gradient-1, linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%));
+}
+.article__secondary--cell {
+  background: #fff;
+  /* width: 343px; */
+  height: 259px;
+  box-shadow: 0px 25px 50px 0px rgba(6, 22, 141, 0.04);
+  position: relative;
+}
+.article__icon {
+  position: absolute;
+  top: -24px;
 }
