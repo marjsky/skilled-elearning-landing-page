@@ -203,9 +203,15 @@ footer {
   .banner__paragraph{
     width: 398px;
   }
+  .image_container{
+    position: absolute;
+    height: 640px;
+    width: 640px;
+    right: -200px;
+    top: -20px;
+  }
   .image__tablet {
-    display: inline-block;
-    transform: translate(150px -130px);
+
   }
 }
 
